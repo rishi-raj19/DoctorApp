@@ -1,6 +1,6 @@
 # DoctorApp
 
-1. Language and Framwork - Java , SpringBoot , JPA , MYSQL database , Swagger UI
+1. Language and Framwork - Java , SpringBoot , JPA , MYSQL database
    
 2. Data Flow
    - Controller (API)

@@ -13,23 +13,13 @@
      b. AppointmentService - getAllAppointments(), saveAppointment(), getAppointmentForPatient(), cancelAppointment()
      c. AuthenticationService - authenticate()
      c. DoctorService - addDoctor(), getAllDoctors()
-     d. PatientService - signUpPatient(), getAllPatients(), 
-     e. utility - 
+     d. PatientService - signUpPatient(), getAllPatients(), signInPatient()
 
-3. Model - Post(), User(), AuthenticationToken(), SignUpOutput(), SignInInput()
-
-4. Repository - IAuthTokenRepo(), IPostRepo(), IOrderRepo()
+3. Model - Admim(), Appointment(), AuthenticationToken(), Doctor(), Patient()
+4. Repository - IAdmim(), IAppointment(), IAuthenticationToken(), IDoctor(), IPatient()
 
 5. Data Structure Used - MYSQL as database
 
 6. Project Summary
 
-Practicing mapping, APis, SignIn, and SignUp on Instagram Backend is part of this assignment. Springboot allows you to create Post and get Post by Id.
-
-7. Features for Employee
-
-- Create /SignUp user
-- SignIn user(Send token on mail for verification)
-- SignOut user (Delete token)
-- Create Post (Create the Post using email and token and post link)
-- Get post by id(get the specific post by providin email, token and post id)
+Practicing mapping, APis, SignIn, and SignUp on Doctor App is part of this assignment. Springboot allows you to create Post and get Post by Id.
